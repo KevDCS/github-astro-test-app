@@ -1,8 +1,14 @@
 {
+<<<<<<< HEAD
   "name": "@example/minimal",
   "type": "module",
   "version": "0.0.1",
   "private": true,
+=======
+  "name": "astro-test-app",
+  "type": "module",
+  "version": "0.0.1",
+>>>>>>> master
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -13,4 +19,8 @@
   "dependencies": {
     "astro": "^2.8.5"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> master
