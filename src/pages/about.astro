@@ -14,7 +14,7 @@ const happy = true;
 const finished = true;
 const goal = 3;
 
-import Navigation from '../components/Navigation.astro'
+import Header from '../components/Header.astro'
 import Footer from '../components/Footer.astro';
 ---
 
@@ -27,7 +27,7 @@ import Footer from '../components/Footer.astro';
 		<title>{pageTitle}</title>
 	</head>
 	<body class="flex flex-col m-8 items-left">
-        <Navigation />
+        <Header />
         <p>Estos son unos <code class="text-blue-500 bg-slate-700 px-2">props</code> que he enlistado para luego poder mapearlos aqui abajo.</p>
         <ul>
             <li>Mi nombre es <span class="text-2xl bg-indigo-700 text-lime-400 px-2">{identity.firstName}</span>.</li>
